@@ -1,0 +1,30 @@
+{
+  "name": "working-area-full",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/blackseliger/working-area-full",
+  "author": "Gleb Biryukov <biryukov.gleb.98@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
